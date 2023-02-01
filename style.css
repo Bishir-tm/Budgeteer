@@ -1,0 +1,10 @@
+.col-4>img{
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    text-decoration: none !important;
+    margin-right: 5px;
+}
+

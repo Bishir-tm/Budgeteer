@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg992"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Naira.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview994"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.62092452"
+     inkscape:cx="555.62309"
+     inkscape:cy="438.05646"
+     inkscape:window-width="1600"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1381" />
+  <defs
+     id="defs989" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1381"
+       transform="translate(56.672884,22.048959)"
+       style="fill:#000000">
+      <g
+         id="g1549"
+         style="fill:#2a2aff">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:293.363px;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One';fill:#2a2aff;stroke:none;stroke-width:27.7194"
+           x="-41.148113"
+           y="255.90619"
+           id="text1167"
+           transform="scale(1.0560365,0.94693696)"><tspan
+             sodipodi:role="line"
+             id="tspan1165"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fjalla One';-inkscape-font-specification:'Fjalla One';fill:#2a2aff;stroke:none;stroke-width:27.7194"
+             x="-41.148113"
+             y="255.90619">N</tspan></text>
+        <rect
+           style="fill:#2a2aff;stroke:none;stroke-width:0.34253"
+           id="rect1373"
+           width="159.79196"
+           height="22.775194"
+           x="-35.793404"
+           y="100.33665" />
+        <rect
+           style="fill:#2a2aff;stroke:none;stroke-width:0.34227"
+           id="rect1375"
+           width="159.79196"
+           height="22.740608"
+           x="-35.793404"
+           y="136.8425" />
+      </g>
+    </g>
+  </g>
+</svg>

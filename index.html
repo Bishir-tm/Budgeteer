@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Budget</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="./bootstrap.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="m-5 p-3 bg-dark">
+    <div class="container">
+        <h1 class="fs-1 fw-bolder text-warning border-2 border-primary border-bottom mb-5">Budget<span class="text-danger">eer</span></h1>
+        <div class="alert alert-danger mb-3 fs-5 d-none " id="budgetErrorMsg"></div>
+        <div class="row gx-5">
+            <div class="col-md-5 border  border-success rounded">
+                <form action="" class="form-inline p-5  fs-5 " id="budgetForm">
+                    <label for="budgetInput" class="form-label text-secondary"> Budget Amount:</label>
+                    <input type="number" name="budgetInput" id="budgetInputField" class="form-control border-">
+                    <input type="submit" class="btn btn-outline-success  border-3 my-3 " id="budgetInputButton" value = "Calculate">
+                </form>
+            </div>
+            <div class="col-md-7 ms-auto"> 
+                <div class="row">
+                    <div class="col-4 d-flex align-items-center  flex-column ">
+                        <p class="fs-4 text-secondary fw-bold mt-3 mb-0" >BUDGET</p>
+                        <img class="img-fluid" src="./assets/cash-outline.svg">
+                        <div class="fs-3 fw-bold  text-success">&#8358
+                            <output id="totalBudgetFeedBack">0</output></div> 
+                    </div>
+                    <div class="col-4 d-flex align-items-center flex-column">
+                        <p class="fs-4 text-secondary fw-bold mt-3 mb-0" >EXPENSE</p>
+                        <img class="img-fluid" src="./assets/credit-card.svg">
+                        <div class="fs-3 fw-bold  text-danger">&#8358
+                            <output  id="totalExpenseFeedBack">0</output></div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center flex-column">
+                        <p class="fs-4 text-secondary fw-bold mt-3 mb-0" >BALANCE</p>
+                        <img class="img-fluid" src="./assets/Naira.svg">
+                        <div class="fs-3 fw-bold text-secondary">&#8358
+                            <output  id="totalBalanceFeedBack">0</output></div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+         
+        <div class="alert alert-danger mb-3 fs-5 d-none " id="expenseErrorMsg"></div>
+
+        <div class="row my-3 gx-5">
+            <div class="col-md-5 border  border-danger rounded">
+                <form action="" class="form-inline p-5  fs-5 " id="expenseForm">
+                    
+                        <label for="expenseItem" class="form-label text-secondary">Expense Item:</label>
+                        <input type="text" name="expenseItem" id="expenseItemField" class="form-control">
+
+                        <label for="expenseAmount" class="form-label text-secondary">Amount:</label>
+                        <input type="number" name="expenseAmount" id="expenseAmountField" class="form-control">
+                        
+                        <input type="submit" class="btn btn-outline-danger  border-3 my-3 " id="expenseInputButton" value = "Add Expense">
+                    </form>
+            </div>    
+            <div class="col-md-7">
+                <h4 class="text-danger text-center pt-3 mb-0 mt-3">
+                    Expenses
+                </h4>
+                <table class="table text-danger" id="expenseTable" >
+                     <!-- heading columns -->
+                     <tr class="text-secondary">
+                         <th></th>
+                         <th>Item</th>
+                         <th>&#8358</th>
+                         <th></th>
+                     </tr>
+                    <tbody id="expenseItems">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td>water</td>
+                            <td>222</td>
+                            <td>
+                                <a href="#" >
+                                    <img src="./assets/pen.svg" >
+                                </a>
+                                <a href="#" class="">
+                                    <img src="./assets/trash.svg" alt="">
+                                </a>
+                            </td>
+                        </tr> -->
+                    </tbody>    
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

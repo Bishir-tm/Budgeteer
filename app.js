@@ -192,6 +192,7 @@ function eventListeners() {
         clickedBtn = event.target.parentElement;
         if (clickedBtn.classList.contains('editBtn')) {
             ui.editExpenseItem(clickedBtn)
+            
 
         } else if(clickedBtn.classList.contains('deleteBtn')){
             ui.deleteExpenseItem(clickedBtn)
